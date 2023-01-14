@@ -2,7 +2,7 @@ import requests
 import json
 import pandas as pd
 
-df = pd.read_csv("C:/Users/SOUMYA/PycharmProjects/api_test/Input_File/get_request.csv")
+df = pd.read_csv("C:/Users/SOUMYA/PycharmProjects/api_test/Get_Requests/Input_File/get_request.csv")
 #print(df.id)
 for i in df.id:
     print("value:",i)
