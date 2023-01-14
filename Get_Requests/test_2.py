@@ -2,7 +2,7 @@ import requests
 import json
 import pandas as pd
 
-search_api_url = 'https://www.boredapi.com/api/activity'
+search_api_url = 'https://randomuser.me/api/'
 response_1 = requests.get(search_api_url)
 print(response_1.status_code)
 if response_1.status_code==200 :
